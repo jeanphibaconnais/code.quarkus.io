@@ -15,11 +15,11 @@
     "postinstall": "((! test -f ~/bin/bit && bvm install) || true) && ~/bin/bit import && ~/bin/bit link"
   },
   "dependencies": {
-    "@sentry/browser": "6.16.0",
+    "@sentry/browser": "6.17.5",
     "@teambit/bvm": "0.0.30",
     "@testing-library/dom": "8.11.1",
     "@testing-library/react": "12.1.2",
-    "@types/jest": "27.0.3",
+    "@types/jest": "27.4.0",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
     "classnames": "2.3.1",
@@ -27,9 +27,9 @@
     "eslint": "7.32.0",
     "eslint-config-react-app": "6.0.0",
     "eslint-plugin-flowtype": "5.10.0",
-    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-react": "7.27.1",
+    "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
     "lodash": "4.17.21",
     "react": "17.0.2",
@@ -38,7 +38,7 @@
     "react-hotkeys-hook": "3.4.4",
     "react-icons": "4.3.1",
     "string.prototype.matchall": "4.0.6",
-    "typescript": "4.5.2",
+    "typescript": "4.5.5",
     "use-persisted-state": "0.3.3"
   },
   "peerDependencies": {
