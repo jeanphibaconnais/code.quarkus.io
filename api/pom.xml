@@ -17,7 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <kotlin.version>1.6.10</kotlin.version>
+        <kotlin.version>1.6.21</kotlin.version>
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
         <commons-compress.version>1.21</commons-compress.version>
         <google-analytics-java.version>2.0.0</google-analytics-java.version>
@@ -29,15 +29,16 @@
         <!-- Quarkus platform used for the code.quarkus app-->
         <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
         <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
-        <quarkus.platform.version>2.8.0.Final</quarkus.platform.version>
+        <quarkus.platform.version>2.10.0.Final</quarkus.platform.version>
 
         <!-- Quarkus devtools version -->
-        <quarkus.devtools.version>2.8.0.Final</quarkus.devtools.version>
-        <quarkus.base-codestarts.version>2.8.0.Final</quarkus.base-codestarts.version>
+        <quarkus.devtools.version>2.10.0.Final</quarkus.devtools.version>
+        <quarkus.base-codestarts.version>2.10.1.Final</quarkus.base-codestarts.version>
 
         <!-- Quarkiverse versions -->
         <quarkus.jgit.version>1.2.0</quarkus.jgit.version>
-        <quarkus.logging.sentry.version>1.1.0</quarkus.logging.sentry.version>
+        <quarkus.logging.sentry.version>1.1.1</quarkus.logging.sentry.version>
+        <quarkus.quinoa.version>1.0.6</quarkus.quinoa.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -62,6 +63,11 @@
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-rest-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.quinoa</groupId>
+            <artifactId>quarkus-quinoa</artifactId>
+            <version>${quarkus.quinoa.version}</version>
         </dependency>
         <dependency>
             <groupId>io.quarkiverse.jgit</groupId>
